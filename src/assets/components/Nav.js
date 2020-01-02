@@ -7,16 +7,16 @@ export class Nav extends React.Component {
 				<nav>
 					<ul>
 						<li>
-							<a href="">About Me</a>
+							<a href="#aboutMe">About Me</a>
 						</li>
 						<li>
-							<a href="">Projects</a>
+							<a href="#projects">Projects</a>
 						</li>
 						<li>
-							<a href="">CV</a>
+							<a href="#cv">CV</a>
 						</li>
 						<li>
-							<a href="">Contact</a>
+							<a href="#contacts">Contacts</a>
 						</li>
 					</ul>
 				</nav>
