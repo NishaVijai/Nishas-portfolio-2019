@@ -6,6 +6,8 @@ export class Nav extends React.Component {
 			<div className="navContainer">
 				<nav>
 					<ul>
+						<button>x</button>
+
 						<li>
 							<a href="#aboutMe">About Me</a>
 						</li>
