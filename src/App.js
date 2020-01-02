@@ -1,8 +1,13 @@
 import React from 'react';
 import './App.css';
-
-function App() {
-	return <div className="App" />;
+import { Main } from './assets/components/Main';
+class App extends React.Component {
+	render() {
+		return (
+			<div>
+				<Main />
+			</div>
+		);
+	}
 }
-
 export default App;
