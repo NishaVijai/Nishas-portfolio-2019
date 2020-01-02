@@ -1,13 +1,39 @@
-
 nav {
-    background-color: #D6FFFF;
+    background-color: #d6ffff;
     width: 100vw;
 }
 
+ul {
+    display: flex;
+}
+
 li {
+    font-size: 3vh;
     list-style-type: none;
+    margin: 0 2vw;
 }
 
 a {
+    color: #000;
+    font-family: monospace;
+    /* padding: 2vw; */
     text-decoration: none;
+}
+
+a:hover {
+    background-color: #C6E9FF;
+}
+
+@media only screen and (max-width: 500px) {
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin: 1vw;
+  }
+
+  a {
+    display: block;
+  }
 }
