@@ -1,0 +1,13 @@
+
+nav {
+    background-color: #D6FFFF;
+    width: 100vw;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
