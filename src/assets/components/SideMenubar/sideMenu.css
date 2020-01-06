@@ -1,0 +1,34 @@
+.side-menu-container {
+    background: #fff;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    height: 100%;
+    left: 0;
+    max-width: 400px;
+    position: fixed;
+    top: 0;
+    width: 70%;
+    z-index: 200;
+}
+
+.side-menu-container ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    list-style: none;
+}
+
+.side-menu-container li {
+    margin: 0.5rem 0 0.5rem 2rem;
+}
+
+.side-menu-container a {
+    color: #226587;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.side-menu-container a:hover,
+.side-menu-container a:active {
+    color: rgb(87, 39, 102);
+}
