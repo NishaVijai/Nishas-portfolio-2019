@@ -5,8 +5,8 @@ import MenuToggleButton from '../SideMenubar/MenuToggleButton';
 const menu = (props) => (
 	<header className="menu-container">
 		<nav className="menu-navigation">
-			<div>
-				<MenuToggleButton />
+			<div className="menu-toggle-button">
+				<MenuToggleButton click={props.menuClickHandler} />
 			</div>
 
 			<div className="menu-logo">
