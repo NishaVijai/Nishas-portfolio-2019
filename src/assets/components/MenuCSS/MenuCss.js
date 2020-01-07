@@ -4,7 +4,10 @@ import './menuCSS.css';
 export default class MenuCss extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className="menu-css-container">
+				<div className="logo-div">
+					<div className="logo" />
+				</div>
 				<div className="menu-wrap">
 					<input type="checkbox" className="toggler" />
 					<div className="hamburger">
@@ -16,13 +19,13 @@ export default class MenuCss extends React.Component {
 							<div>
 								<ul>
 									<li>
-										<a href="#">Home</a>
-									</li>
-									<li>
 										<a href="#">About</a>
 									</li>
 									<li>
-										<a href="#">Services</a>
+										<a href="#">Resume</a>
+									</li>
+									<li>
+										<a href="#">Projects</a>
 									</li>
 									<li>
 										<a href="#">Contact</a>
