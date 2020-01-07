@@ -1,0 +1,207 @@
+:root {
+    --primary-color: rgba(13, 110, 139, 0.45);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+}
+
+/* Showcase and container */
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+.showcase {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+
+.showcase:before {
+    content: '';
+    background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.showcase .showcase-inner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.showcase h1 {
+    font-size: 4rem;
+}
+
+.showcase p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    background-color: var(--primary-color); 
+    border: none;
+    color: #fff;
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none; 
+    transition: opacity 1s ease-in;
+}
+
+.btn:hover {
+    background: rgb(132, 86, 184);
+    opacity: 0.7;
+}
+
+/* Menu */
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu-wrap .toggler {
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 50px;
+    z-index: 2;
+}
+
+.menu-wrap .hamburger {
+    align-items: center;
+    background: var(--primary-color);
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    z-index: 1;
+}
+
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    height: 2px;
+    justify-content: center;
+    position: relative;
+    transition: all 0.4s ease-in;
+    width: 100%;
+}
+
+/* Top and bottom white lines in hamburger */
+.menu-wrap .hamburger > div:before,
+.menu-wrap .hamburger > div:after {
+    background: inherit;
+    content: '';
+    height: 2px;
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Moves the last line to its position */
+.menu-wrap .hamburger > div:after {
+    top: 10px;
+}
+
+/* Toggler animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+}
+
+/* Turn lines into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+/* Rotate on hover when checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+}
+
+/* Show Menu */
+.menu-wrap .toggler:checked ~ .menu {
+    visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+/* ---- */
+
+.menu-wrap .menu {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+
+.menu-wrap .menu > div {
+    align-items: center;
+    background: var(--overlay-color);
+    border-radius: 50%;
+    display: flex;
+    flex: none;
+    height: 200vw;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+    width: 200vw;
+}
+
+.menu-wrap .menu > div > div {
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.4s ease;
+    max-height: 100vh;
+    max-width: 90vw;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+    color: #fff;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
