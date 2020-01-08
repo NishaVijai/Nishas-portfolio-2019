@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './menuCSS.css';
-
+import Contact from '../Contact/Contact';
 export default class MenuCss extends React.Component {
 	render() {
 		return (
@@ -19,16 +19,19 @@ export default class MenuCss extends React.Component {
 							<div>
 								<ul>
 									<li>
-										<a href="#">About</a>
+										<a href="#">Home</a>
 									</li>
 									<li>
-										<a href="#">Resume</a>
+										<a href="#">About</a>
 									</li>
 									<li>
 										<a href="#">Projects</a>
 									</li>
 									<li>
-										<a href="#">Contact</a>
+										<a href="#">Resume</a>
+									</li>
+									<li>
+										<a href="#">Contact Me</a>
 									</li>
 								</ul>
 							</div>
@@ -37,17 +40,39 @@ export default class MenuCss extends React.Component {
 				</div>
 				<header className="showcase">
 					<div className="container showcase-inner">
-						<h1>Welcome</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab provident quas, sapiente placeat
-							ratione quis ducimus neque sequi pariatur officia fugit molestias adipisci numquam impedit,
-							quae sit.
-						</p>
-						<a href="#" className="btn">
-							Read More...
-						</a>
+						<h1>Front-End Developer</h1>
+						<p>Recent Projects</p>
+						<button className="btn">
+							<img src={require('../../images/down-arrow.png')} alt="" />
+						</button>
 					</div>
 				</header>
+				<footer className="footer-container">
+					<div>
+						<p>&copy; 2020 Noorunnisha Thamizuddin</p>
+						<ul>
+							<li>
+								<a href="https://github.com/NishaVijai" target="_blank" rel="noopener  noreferrer">
+									<img src={require('../../images/github-logo.png')} alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/RoshanVijai" target="_blank" rel="noopener  noreferrer">
+									<img src={require('../../images/twitter.png')} alt="" />
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/noorun-nisha-319976105/"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img src={require('../../images/linkedIn.png')} alt="" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</footer>
 			</div>
 		);
 	}
