@@ -3,6 +3,14 @@ import './menuCSS.css';
 import Contact from '../Contact/Contact';
 export default class MenuCss extends React.Component {
 	render() {
+		let linksMarkup = this.props.links.map((link, index) => {
+			return (
+				<li>
+					<a href={link.link}>{link.label}</a>
+				</li>
+			);
+		});
+
 		return (
 			<div className="menu-css-container">
 				<div className="logo-div">
@@ -18,7 +26,8 @@ export default class MenuCss extends React.Component {
 						<div>
 							<div>
 								<ul>
-									<li>
+									{linksMarkup}
+									{/* <li>
 										<a href="#">Home</a>
 									</li>
 									<li>
@@ -32,7 +41,7 @@ export default class MenuCss extends React.Component {
 									</li>
 									<li>
 										<a href="#">Contact Me</a>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>
