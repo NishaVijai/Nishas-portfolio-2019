@@ -1,0 +1,27 @@
+/* Footer */
+.footer-container {
+    text-align: center;
+}
+
+.footer-container > div,
+.footer-container > div > ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container > div > ul > li {
+    list-style: none;
+}
+
+.footer-container > div,
+.footer-container > div > ul > li > a {
+    color: rgba(75, 36, 13, 0.85);
+    text-decoration: none;
+}
+
+.footer-container > div > ul > li > a > img {
+    border-radius: 15px;
+    height: 35px;
+    width: 35px;
+}

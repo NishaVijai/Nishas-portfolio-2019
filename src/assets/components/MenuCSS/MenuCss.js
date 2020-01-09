@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import './menuCSS.css';
-import Contact from '../Contact/Contact';
+// import Contact from '../Contact/Contact';
 export default class MenuCss extends React.Component {
 	render() {
-		let linksMarkup = this.props.links.map((link, index) => {
-			return (
-				<li>
-					<a href={link.link}>{link.label}</a>
-				</li>
-			);
-		});
+		// let linksMarkup = this.props.links.map((link, index) => {
+		// 	return (
+		// 		<li>
+		// 			<a href={link.link}>{link.label}</a>
+		// 		</li>
+		// 	);
+		// });
 
 		return (
 			<div className="menu-css-container">
-				<div className="logo-div">
+				{/* <div className="logo-div">
 					<div className="logo" />
-				</div>
+				</div> */}
 				<div className="menu-wrap">
 					<input type="checkbox" className="toggler" />
 					<div className="hamburger">
@@ -26,7 +26,7 @@ export default class MenuCss extends React.Component {
 						<div>
 							<div>
 								<ul>
-									{linksMarkup}
+									{/* {linksMarkup} */}
 									{/* <li>
 										<a href="#">Home</a>
 									</li>
@@ -47,7 +47,7 @@ export default class MenuCss extends React.Component {
 						</div>
 					</div>
 				</div>
-				<header className="showcase">
+				{/* <header className="showcase">
 					<div className="container showcase-inner">
 						<h1>Front-End Developer</h1>
 						<p>Recent Projects</p>
@@ -55,8 +55,8 @@ export default class MenuCss extends React.Component {
 							<img src={require('../../images/down-arrow.png')} alt="" />
 						</button>
 					</div>
-				</header>
-				<footer className="footer-container">
+				</header> */}
+				{/* <footer className="footer-container">
 					<div>
 						<p>&copy; 2020 Noorunnisha Thamizuddin</p>
 						<ul>
@@ -81,7 +81,7 @@ export default class MenuCss extends React.Component {
 							</li>
 						</ul>
 					</div>
-				</footer>
+				</footer> */}
 			</div>
 		);
 	}

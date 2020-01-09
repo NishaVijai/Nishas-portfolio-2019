@@ -1,0 +1,74 @@
+/* Header */
+/* Showcase and container */
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 3rem;
+}
+
+.showcase {
+    /* background-color: var(--primary-color); */
+    /* color: rgb(58, 56, 56); */
+    color: rgba(87, 58, 41, 0.85);
+    height: 100vh;
+    position: relative;
+}
+
+.showcase:before {
+    content: '';
+    /* background: url('https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center/cover; */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.showcase .showcase-inner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.showcase h1 {
+    font-size: 4rem;
+}
+
+.showcase p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    /* background-color: var(--primary-color);  */
+    background-color: #f1975f;
+    /* background-image: url('../../images/down-arrow.png') no-repeat center; */
+    /* border: none; */
+    border: 1px solid #94938f;
+    border-radius: 50%;
+    display: block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    /* text-decoration: none;  */
+    transition: opacity 1s ease-in;
+}
+
+.btn:hover {
+    border: 1px solid #646362;
+    /* opacity: 0.5; */
+}
+
+.btn img {
+    height: 20px;
+    opacity: 0.5;
+    transition: opacity 1s ease-in;
+    width: 20px;
+}
+
+.btn:hover img {
+    opacity: 1;
+}
