@@ -10,7 +10,7 @@ import Contact from './assets/components/pages/Contact/Contact';
 import NotFoundPage from './assets/components/pages/PageNotFound/404';
 import Footer from './assets/components/pages/Footer/Footer';
 
-import './app.css';
+import './App.css';
 class App extends React.Component {
 	render() {
 		return (
