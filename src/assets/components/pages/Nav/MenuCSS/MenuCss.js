@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './menuCSS.css';
 // import Contact from '../Contact/Contact';
+import { Link } from 'react-router-dom';
+
 export default class MenuCss extends React.Component {
 	render() {
 		// let linksMarkup = this.props.links.map((link, index) => {
@@ -10,6 +12,10 @@ export default class MenuCss extends React.Component {
 		// 		</li>
 		// 	);
 		// });
+
+		// const navStyle = {
+		// 	color: '#fff'
+		// };
 
 		return (
 			<div className="menu-css-container">
@@ -42,6 +48,21 @@ export default class MenuCss extends React.Component {
 									<li>
 										<a href="#">Contact Me</a>
 									</li> */}
+									<Link className="menu-link-li menu-link-nav" to="/Home">
+										<li>Home</li>
+									</Link>
+									<Link className="menu-link-li menu-link-nav" to="/About">
+										<li>About</li>
+									</Link>
+									<Link className="menu-link-li menu-link-nav" to="/Portfolio">
+										<li>Portfolio</li>
+									</Link>
+									<Link className="menu-link-li menu-link-nav" to="/Resume">
+										<li>Resume</li>
+									</Link>
+									<Link className="menu-link-li menu-link-nav" to="/Contact">
+										<li>Contact</li>
+									</Link>
 								</ul>
 							</div>
 						</div>

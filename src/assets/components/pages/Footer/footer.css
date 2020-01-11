@@ -1,5 +1,6 @@
 /* Footer */
 .footer-container {
+    color: darkgoldenrod;
     text-align: center;
 }
 
@@ -12,16 +13,17 @@
 
 .footer-container > div > ul > li {
     list-style: none;
+    padding: 0 0.5rem;
 }
 
 .footer-container > div,
 .footer-container > div > ul > li > a {
-    color: rgba(75, 36, 13, 0.85);
-    text-decoration: none;
+    /* color: rgba(75, 36, 13, 0.85); */
+    /* text-decoration: none; */
 }
 
 .footer-container > div > ul > li > a > img {
     border-radius: 15px;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
 }
