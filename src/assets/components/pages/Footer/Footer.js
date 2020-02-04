@@ -28,6 +28,20 @@ export default class Footer extends Component {
 									<img src={require('../../../images/linkedIn.png')} alt="" />
 								</a>
 							</li>
+							<li>
+								<a href="https://codepen.io/nishavijai" target="_blank" rel="noopener  noreferrer">
+									<img src={require('../../../images/codepen.png')} alt="" />
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://www.codewars.com/users/NishaVijai/completed_solutions"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									<img src={require('../../../images/codewars.png')} alt="" />
+								</a>
+							</li>
 						</ul>
 					</div>
 				</footer>

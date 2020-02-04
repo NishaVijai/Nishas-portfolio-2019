@@ -1,6 +1,7 @@
 :root {
     /* --primary-color: rgba(23, 28, 54, 0.75); */
-    --overlay-color: rgba(87, 58, 41, 0.85);
+    /* --overlay-color: rgba(87, 58, 41, 0.85); */
+    --overlay-color: rgba(146, 108, 51, 0.85);
     --menu-speed: 0.75s;
 }
 .menu-css-container {
@@ -93,6 +94,26 @@
     visibility: visible;
 }
 
+
+
+
+
+/* Hide menu - ? */
+.menu > div > div > Link > li:checked ~ .menu {
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+.menu > div > div > Link > li:focus ~ .menu-wrap {
+    /* display: none; */
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+
+Link .menu-link-nav > li:checked ~ .menu{
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
 .menu-wrap .toggler:checked ~ .menu > div {
     transform: scale(1);
     transition-duration: var(--menu-speed);
@@ -101,6 +122,20 @@
 .menu-wrap .toggler:checked ~ .menu > div > div {
     opacity: 1;
     transition: opacity 0.4s ease;
+}
+
+.menu > div > div > Link:focus-within li:checked ~ .menu {
+    /* visibility: visible; */
+    /* visibility: hidden; */
+    /*display: none; */
+    /* opacity: 0; */
+    /* clear: both; */
+    
+}
+
+Link:hover {
+    /* background: red;
+    color: red; */
 }
 
 /* ---- */
@@ -142,14 +177,41 @@
 .menu-wrap .menu > div > div > ul > li,
 .menu-link-li > li {
     color: #fff;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.8rem;
     /* list-style: none; */
     padding: 1rem;
 }
 
+.menu-link-li > li:hover {
+    color: #311e5f;
+}
+
+.menu-link-li > li:checked ~ .menu-wrap .menu {
+    /* background: black; */
+}
+
+.menu-link-li > li:checked ~ .menu-wrap {
+    /* visibility: collapse; */
+    /* display: none; */
+}
+
+.menu-link-li > li:checked + .menu-wrap {
+    visibility: hidden;
+    /* display: none; */
+    /* background: white; */
+    /* opacity: 0; */
+}
+
+li + .menu:active,
+li:focus + .menu {
+    /* visibility: visible; */
+    /* visibility: hidden; */
+}
+
 .menu-wrap .menu > div > div > ul > li > a {
-    color: inherit;
+    /* color: inherit; */
     /* text-decoration: none; */
-    transition: color 0.4s ease;
+    /* transition: color 0.4s ease; */
 }
 

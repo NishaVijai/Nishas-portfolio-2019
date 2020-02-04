@@ -52,7 +52,7 @@ export default class MenuCss extends React.Component {
 										<li>Home</li>
 									</Link>
 									<Link className="menu-link-li menu-link-nav" to="/About">
-										<li>About</li>
+										<li className="hid">About</li>
 									</Link>
 									<Link className="menu-link-li menu-link-nav" to="/Portfolio">
 										<li>Portfolio</li>

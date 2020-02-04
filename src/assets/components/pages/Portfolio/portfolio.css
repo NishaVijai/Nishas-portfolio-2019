@@ -1,0 +1,33 @@
+/* .portfolio-container,
+.certificates-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.chingu-project-container {
+    display: grid;
+   
+    grid-template-columns: minmax(min-content, 1fr) max-content;
+}
+
+.chingu-project-container > li > a > img {
+    height: 100px;
+    width: 100px;
+}
+
+.certificates-container {
+    display: inline-block;
+    position: relative;
+
+}
+
+
+.certificate-image img{
+    
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 700px;
+} */
