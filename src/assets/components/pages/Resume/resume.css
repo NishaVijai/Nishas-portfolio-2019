@@ -1,0 +1,39 @@
+.resume-container {
+    background: #000;
+    display: grid;
+    font-size: 1.6rem;
+    grid-template-columns: 200px 1fr;
+    
+}
+
+.resume-container h4 {
+    text-transform: uppercase;
+}
+
+.resume-left h4 {
+    color: rgb(102, 109, 8);
+}
+
+.resume-container p {
+    text-transform: capitalize;
+}
+
+.resume-container a {
+    color: rgb(102, 121, 133);
+    text-decoration: none;
+}
+
+.resume-left {
+    /* background: rgba(207, 163, 141, 0.85); */
+    /* color: #514370; */
+    /* background: rgb(192, 174, 154); */
+    background: rgb(221, 202, 186);
+    color: rgb(51, 47, 41);
+    padding: 30px;
+}
+
+.resume-right {
+    /* background: #000; */
+    color: rgb(160, 165, 194);
+    padding: 30px;
+}
