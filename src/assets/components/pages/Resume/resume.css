@@ -1,20 +1,37 @@
 .resume-container {
     background: #000;
     display: grid;
-    font-size: 1.6rem;
-    grid-template-columns: 200px 1fr;
-    
+    font-size: 1.5rem;
+    grid-template-columns: 300px 1fr;
+    /* gap: 10px; */
 }
 
-.resume-container h4 {
+.resume-container h2, 
+.resume-container h3 {
     text-transform: uppercase;
 }
 
-.resume-left h4 {
+/* hr */
+
+hr {
+    border: 1px solid rgb(102, 109, 8);
+    border-radius: 10px;
+}
+
+/* resume-left */
+
+.resume-left h3,
+.resume-left > div {
+    /* margin: auto 0; */
+    /* border: 1px solid red; */
+    padding: 10px 0;
+}
+
+.resume-left h3 {
     color: rgb(102, 109, 8);
 }
 
-.resume-container p {
+.resume-left p::first-letter {
     text-transform: capitalize;
 }
 
@@ -27,13 +44,103 @@
     /* background: rgba(207, 163, 141, 0.85); */
     /* color: #514370; */
     /* background: rgb(192, 174, 154); */
-    background: rgb(221, 202, 186);
+    /* background: rgb(221, 205, 186); */
+    background: rgb(226, 204, 103);
     color: rgb(51, 47, 41);
     padding: 30px;
 }
 
+/* front-end-lang */
+
+.front-end-lang,
+.back-end-lang {
+    /* align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.front-end-lang p,
+.back-end-lang p {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.side-line {
+    background-color: rgb(136, 94, 94);
+    border-radius: 30px;
+    display: flex;
+    height: 15px;
+    width: 150px;
+}
+
+.side-line p {
+    /* position: relative;
+    text-transform: uppercase; */
+}
+
+.side-line p::after {
+    /* content: "";
+    background-color: #000;
+    border-radius: 10px; */
+    /* color: rgb(102, 121, 133); */
+    /* height: 10px;
+    position: absolute;
+    right: 0;
+    top: 30%;
+    width: 150px; */
+}
+
+.fill-in {
+    align-items: center;
+    /* background: linear-gradient(to left, rgb(242, 112, 184), rgb(255, 166, 114)); */
+    background: linear-gradient(to left, rgb(112, 242, 123), rgb(136, 94, 94));
+    border-radius: 30px;
+    box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
+    color: rgb(60, 65, 31);
+    display: flex;
+    font-size: 1.3rem;
+    height: 15px;
+    justify-content: center;
+    /* opacity: 0; */
+    width: 90px;
+    position: absolute;
+    transition: 3s ease;
+}
+
+.fill-80 {
+    width: 120px;
+}
+
+.fill-70 {
+    width: 110px;
+}
+
+.fill-60 {
+    width: 100px;
+}
+
+.fill-30 {
+    width: 70px;
+}
+
+/* resume-right */
+
 .resume-right {
-    /* background: #000; */
-    color: rgb(160, 165, 194);
+    background: rgb(32, 32, 32);
+    /* color: rgb(160, 165, 194); */
+    /* color: #9C6E00; */
+    color: rgb(71, 212, 83);
+    /* color: #C8CBCF; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding: 30px;
+}
+
+.resume-right a {
+    /* color: rgb(102, 121, 133); */
+    color: rgb(255, 153, 0);
 }
