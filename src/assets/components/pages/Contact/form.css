@@ -1,0 +1,61 @@
+
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation: pop-in 1s;
+}
+
+@keyframes pop-in {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+form > input,
+form > textarea {
+    border: 1px solid goldenrod;
+    font-size: 1.7rem;
+    margin-bottom: 2px;
+    min-width: 450px;
+    outline: none;
+    padding: 10px 15px;
+}
+
+form > textarea {
+    font-size: 2rem;
+}
+
+.error-message {
+    color: rgb(201, 4, 4);
+    font-size: 1.5rem;
+    transition: 1s ease-out;
+}
+
+textarea {
+    min-height: 150px;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    color: #000;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    outline: none !important;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #ee8645;
+    color: rgb(14, 13, 13);
+    transition: 1s ease-in;
+}

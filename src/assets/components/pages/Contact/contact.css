@@ -1,56 +1,20 @@
 .contact-container {
     display: grid;
     grid-template-columns: 1fr;
-    /* align-items: center; */
-    /* display: flex; */
     height: 100vh;
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* overflow-x: hidden; */
-    /* width: 100vw; */
 }
 
 h2 {
-    /* align-items: center; */
-    font-size: 3rem;
+    font-size: 3.5rem;
+    margin-top: 50px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.form-container {
-    /* display: flex; */
-    /* margin: 10px;
-    padding: 10px; */
-}
-
-form {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-form > input,
-form > textarea {
-    font-size: 1.5rem;
-    padding: 10px 15px;
-    min-width: 450px;
-}
-
-textarea {
-    min-height: 150px;
-    /* width: 100%; */
-}
-
-form:nth-of-type(4) {
-    
-}
-
-button {
-    float: right;
-    font-size: 1.5rem;
-    /* justify-self: flex-end; */
-    margin-top: 10px;
-    padding: 10px 30px;
-    text-transform: uppercase;
+h2::after {
+    content: "";
+    border: 2px solid goldenrod;
+    display: block;
+    margin: 10px auto;
+    width: 100px;
 }
