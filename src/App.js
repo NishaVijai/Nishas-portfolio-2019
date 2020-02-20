@@ -71,7 +71,8 @@ function App() {
 						<div className="toggle-container">
 							{/* <button onClick={() => setDarkMode((prevMode) => !prevMode)}>toggle mode</button> */}
 							<span style={{ color: darkMode ? 'yellow' : 'grey' }}>
-								<img src={require('../src/assets/images/sun.png')} alt="" height="40" width="40" />
+								{/* <img src={require('../src/assets/images/sun.png')} alt="" height="40" width="40" /> */}
+								<img src={require('../src/assets/images/dark.png')} alt="" height="30" width="30" />
 							</span>
 							<span className="toggle">
 								<input
@@ -84,7 +85,8 @@ function App() {
 								<label htmlFor="checkbox" />
 							</span>
 							<span style={{ color: darkMode ? 'grey' : 'black' }}>
-								<img src={require('../src/assets/images/dark.png')} alt="" height="30" width="30" />
+								{/* <img src={require('../src/assets/images/dark.png')} alt="" height="30" width="30" /> */}
+								<img src={require('../src/assets/images/sun.png')} alt="" height="40" width="40" />
 							</span>
 						</div>
 					</nav>

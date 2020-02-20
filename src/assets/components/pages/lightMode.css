@@ -42,7 +42,7 @@
     margin: 0 5px;
 }
 
-.toggle-container > span:last-child {
+.toggle-container > span:first-child {
     margin-top: 5px;
 }
 
