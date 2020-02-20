@@ -27,10 +27,19 @@ export default class Portfolio extends Component {
 						</li>
 					</ul>
 				</div> */}
+				<div>
+					<h2>Projects</h2>
+					<div className="projects-container">
+						<div>First</div>
+						<div>Second</div>
+						<div>Third</div>
+						<div>Fourth</div>
+					</div>
+				</div>
 
 				<div className="certificates-container">
 					{/* <h3>Completion certificates from Chingu-Voyage</h3> */}
-					<Certificate />
+					{/* <Certificate /> */}
 					{/* <img
 						className="certificate-image"
 						src={require('../../../images/Voyage_12_-_Completion_Certificate.pdf')}
