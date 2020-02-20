@@ -1,0 +1,15 @@
+.dark-mode {
+    background-color: rgb(49, 41, 41);
+    background-color: rgb(172, 145, 145);
+    /* color: gray; */
+    color: rgb(57, 110, 57);
+}
+
+.light-mode {
+    background-color: #1a1919;
+    color: #999;
+}
+
+.light-mode nav {
+    background-color: #1b2938;
+}
