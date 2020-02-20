@@ -26,15 +26,33 @@ function App() {
 		[ darkMode ]
 	);
 
+	// function getInitialMode() {
+	// 	const savedMode = JSON.parse(localStorage.getItem('dark'));
+	// 	getPrefColorScheme();
+	// 	return savedMode || false;
+	// }
+
 	function getInitialMode() {
+		const isReturningUser = 'dark' in localStorage;
 		const savedMode = JSON.parse(localStorage.getItem('dark'));
-		getPrefColorScheme();
-		return savedMode || false;
+		const userPrefDarkScheme = getPrefColorScheme();
+
+		if (isReturningUser) {
+			//if mode was saved return dark / light
+			return savedMode;
+		} else if (userPrefDarkScheme) {
+			//if preferred scheme is dark - return dark
+			return true;
+		} else {
+			//otherwise - return light scheme
+			return false;
+		}
 	}
 
 	function getPrefColorScheme() {
 		if (!window.matchMedia) return;
-		console.log(window.matchMedia('(prefers-color-scheme: dark)'));
+		// console.log(window.matchMedia('(prefers-color-scheme: dark)'));
+		return window.matchMedia('(prefers-color-scheme: dark)').matches;
 	}
 
 	return (
