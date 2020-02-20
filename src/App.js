@@ -10,24 +10,14 @@ import Contact from './assets/components/pages/Contact/Contact';
 import NotFoundPage from './assets/components/pages/PageNotFound/404';
 import Footer from './assets/components/pages/Footer/Footer';
 
-import { ThemeProvider } from 'styled-components';
-import { lightTheme, darkTheme } from './assets/components/pages/Theme';
-import { GlobalStyles } from './assets/components/pages/Global';
+// import { ThemeProvider } from 'styled-components';
+// import { lightTheme, darkTheme } from './assets/components/pages/Theme';
+// import { GlobalStyles } from './assets/components/pages/Global';
 
 import './App.css';
 import './assets/components/pages/lightMode.css';
-// class App extends React.Component {
-// 	render() {
-function App() {
-	// const [ theme, setTheme ] = useState('light');
 
-	// const toggleTheme = () => {
-	// 	if (theme === 'light') {
-	// 		setTheme('dark');
-	// 	} else {
-	// 		setTheme('light');
-	// 	}
-	// };
+function App() {
 	const [ darkMode, setDarkMode ] = React.useState(getInitialMode());
 	React.useEffect(
 		() => {
@@ -37,26 +27,14 @@ function App() {
 	);
 
 	function getInitialMode() {
-		const isReturningUser = 'dark' in localStorage;
 		const savedMode = JSON.parse(localStorage.getItem('dark'));
-		const userPrefDarkScheme = getPrefColorScheme();
-
-		if (isReturningUser) {
-			//if mode was saved return dark / light
-			return savedMode;
-		} else if (userPrefDarkScheme) {
-			//if preferred scheme is dark - return dark
-			return true;
-		} else {
-			//otherwise - return light scheme
-			return false;
-		}
-		// return savedMode || false;
+		getPrefColorScheme();
+		return savedMode || false;
 	}
 
 	function getPrefColorScheme() {
 		if (!window.matchMedia) return;
-		return window.matchMedia('(prefers-color-scheme: dark)').matches;
+		console.log(window.matchMedia('(prefers-color-scheme: dark)'));
 	}
 
 	return (
