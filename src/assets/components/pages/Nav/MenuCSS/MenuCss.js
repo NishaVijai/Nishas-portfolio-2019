@@ -48,21 +48,49 @@ export default class MenuCss extends React.Component {
 									<li>
 										<a href="#">Contact Me</a>
 									</li> */}
-									<Link className="menu-link-li menu-link-nav" to="/Home">
-										<li>Home</li>
+									<Link className="menu-link-li" to="/Home">
+										<li className="hid" target="_blank">
+											Home
+										</li>
 									</Link>
-									<Link className="menu-link-li menu-link-nav" to="/About">
+									<Link className="menu-link-li" to="/About">
 										<li className="hid">About</li>
 									</Link>
-									<Link className="menu-link-li menu-link-nav" to="/Portfolio">
-										<li>Portfolio</li>
+									<Link className="menu-link-li" to="/Portfolio">
+										<li className="hid">Portfolio</li>
 									</Link>
-									<Link className="menu-link-li menu-link-nav" to="/Resume">
-										<li>Resume</li>
+									<Link className="menu-link-li" to="/Resume">
+										<li className="hid">Resume</li>
 									</Link>
-									<Link className="menu-link-li menu-link-nav" to="/Contact">
-										<li>Contact</li>
+									<Link className="menu-link-li" to="/Contact">
+										<li className="hid">Contact</li>
 									</Link>
+
+									{/* <li className="menu-link-li">
+										<Link className="hid" to="/Home">
+											Home
+										</Link>
+									</li>
+									<li className="menu-link-li">
+										<Link className="hid" to="/About">
+											About
+										</Link>
+									</li>
+									<li className="menu-link-li">
+										<Link className="hid" to="/Portfolio">
+											Portfolio
+										</Link>
+									</li>
+									<li className="menu-link-li">
+										<Link className="hid" to="/Resume">
+											Resume
+										</Link>
+									</li>
+									<li className="menu-link-li">
+										<Link className="hid" to="/Contact">
+											Contact
+										</Link>
+									</li> */}
 								</ul>
 							</div>
 						</div>
