@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 // import BurgerMenu from '../../BurgerMenu/BurgerMenu';
 import './MenuCSS/menuCSS.css';
 export default class Dropdown extends React.Component {
@@ -41,23 +40,27 @@ export default class Dropdown extends React.Component {
 					</div> */}
 					{this.state.displayMenu ? (
 						<div className="unordered-list">
-							<ul>
-								<Link className="menu-link-li" to="/Home">
-									<li className="hid">Home</li>
-								</Link>
-								<Link className="menu-link-li" to="/About">
-									<li className="hid">About</li>
-								</Link>
-								<Link className="menu-link-li" to="/Portfolio">
-									<li className="hid">Portfolio</li>
-								</Link>
-								<Link className="menu-link-li" to="/Resume">
-									<li className="hid">Resume</li>
-								</Link>
-								<Link className="menu-link-li" to="/Contact">
-									<li className="hid">Contact</li>
-								</Link>
-							</ul>
+							<div>
+								<div>
+									<ul>
+										<Link className="menu-link-li" to="/Home">
+											<li className="hid">Home</li>
+										</Link>
+										<Link className="menu-link-li" to="/About">
+											<li className="hid">About</li>
+										</Link>
+										<Link className="menu-link-li" to="/Portfolio">
+											<li className="hid">Portfolio</li>
+										</Link>
+										<Link className="menu-link-li" to="/Resume">
+											<li className="hid">Resume</li>
+										</Link>
+										<Link className="menu-link-li" to="/Contact">
+											<li className="hid">Contact</li>
+										</Link>
+									</ul>
+								</div>
+							</div>
 						</div>
 					) : null}
 				</div>
