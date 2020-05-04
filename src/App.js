@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Nav from './assets/components/pages/Nav/Nav';
@@ -9,6 +9,8 @@ import Resume from './assets/components/pages/Resume/Resume';
 import Contact from './assets/components/pages/Contact/Contact';
 import NotFoundPage from './assets/components/pages/PageNotFound/404';
 import Footer from './assets/components/pages/Footer/Footer';
+
+import ScrollTopArrow from './assets/components/ScrollTop/ScrollTopArrow';
 
 // import { ThemeProvider } from 'styled-components';
 // import { lightTheme, darkTheme } from './assets/components/pages/Theme';
@@ -71,6 +73,7 @@ function App() {
 					{/* </> */}
 					{/* <GlobalStyles /> */}
 					<Nav />
+
 					<nav>
 						{/* toggle goes here */}
 						<div className="toggle-container">
@@ -95,21 +98,38 @@ function App() {
 							</span>
 						</div>
 					</nav>
+					{/* <Dropdown /> */}
 					<h1>{darkMode ? 'Dark Mode' : 'Light Mode'}</h1>
+
 					{/* <button onClick={toggleTheme}>Toggle theme</button>
 					<h1>It's a light theme!</h1> */}
 					{/* <footer /> */}
+
 					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route exact path="/Home" component={Home} />
 						<Route exact path="/About" component={About} />
 						<Route exact path="/Portfolio" component={Portfolio} />
 						<Route exact path="/Resume" component={Resume} />
+						{/* <Route exact path="https://nishas-resume.netlify.com/" /> */}
+						{/* <Route path='/Resume' component={() => { 
+    							 window.location.href = 'https://nishas-resume.netlify.com/'; 
+     							return null;
+						}}/> */}
 						<Route exact path="/Contact" component={Contact} />
+						{/* <Route
+							path="/res"
+							component={() => {
+							window.location.href = 'https://nishas-resume.netlify.com/';
+							return null;
+							}}
+						/> */}
+						<Route exact path="/" render={() => {window.location.href = "https://redirectsite.com";}} />
 						<Route exact path="/404" component={NotFoundPage} />
 						<Redirect to="/404" />
 					</Switch>
 
+					<ScrollTopArrow />
 					<Footer />
 				</div>
 			</div>

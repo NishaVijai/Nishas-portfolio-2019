@@ -1,10 +1,10 @@
 
 form {
     align-items: center;
+    animation: pop-in 1s;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    animation: pop-in 1s;
 }
 
 @keyframes pop-in {

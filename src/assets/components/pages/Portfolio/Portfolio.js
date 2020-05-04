@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Certificate from './Certificate';
+// import Certificate from './Certificate';
 import '../Portfolio/portfolio.css';
 
 export default class Portfolio extends Component {
