@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from './Logo/Logo';
+
+import Logo from './Logo';
 import Dropdown from './Dropdown';
 
 import './nav.css';
