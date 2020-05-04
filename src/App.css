@@ -1,7 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	filter: invert(2) hue-rotate(180deg);
+	font-size: 62.5%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Cutive Mono', monospace, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	height: 100%;
+	line-height: 1.4;
+}
+
+/* Main app container */
 .main-app-container {
-    height: 2000px;
-    /* height: 100vh; */
-    /* background-image: repeating-linear-gradient(130deg, #ee8645 10%, #f5e97b 30%,  #c2bfb5); */
+	height: 1000px; 
+	/* to test scroll top button */
 }
 
 /* .App {
@@ -27,11 +51,19 @@
 	opacity: 1;
 }
 
+/* Animation */
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
 	}
 	100% {
 		opacity: 0.5;
+	}
+}
+
+/* Media query */
+@media screen and (max-width: 700px) {
+	html {
+		font-size: 55%;
 	}
 }
