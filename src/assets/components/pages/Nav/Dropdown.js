@@ -1,10 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './MenuCSS/menuCSS.css';
-
 // import BurgerMenu from '../../BurgerMenu/BurgerMenu';
-
+import './MenuCSS/menuCSS.css';
 export default class Dropdown extends React.Component {
 	constructor() {
 		super();
@@ -53,32 +51,12 @@ export default class Dropdown extends React.Component {
 								<Link className="menu-link-li" to="/Portfolio">
 									<li className="hid">Portfolio</li>
 								</Link>
-								{/* <Link className="menu-link-li" to="https://nishas-resume.netlify.com/">
-									<li className="hid"><a
-						className="resume-external-link"
-						href="https://nishas-resume.netlify.com/"
-						target="_blank"
-						rel="noopener  noreferrer"
-					>Resume</a></li>
-								</Link> */}
 								<Link className="menu-link-li" to="/Resume">
 									<li className="hid">Resume</li>
 								</Link>
-								{/* <Link className="menu-link-li" to="https://nishas-resume.netlify.com/">
-									<li className="hid">Rsume</li>
-								</Link> */}
-								
 								<Link className="menu-link-li" to="/Contact">
 									<li className="hid">Contact</li>
 								</Link>
-
-								{/* <Link className="menu-link-li" to="https://nishas-resume.netlify.com/"><a
-						className="resume-external-link"
-						href="https://nishas-resume.netlify.com/"
-						target="_blank"
-						rel="noopener  noreferrer"
-					>Resume-Netlify</a></Link> */}
-					
 							</ul>
 						</div>
 					) : null}
