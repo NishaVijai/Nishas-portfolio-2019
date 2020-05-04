@@ -8,9 +8,8 @@ import Portfolio from './assets/components/pages/Portfolio/Portfolio';
 import Resume from './assets/components/pages/Resume/Resume';
 import Contact from './assets/components/pages/Contact/Contact';
 import NotFoundPage from './assets/components/pages/PageNotFound/404';
-import Footer from './assets/components/pages/Footer/Footer';
-
 import ScrollTopArrow from './assets/components/ScrollTop/ScrollTopArrow';
+import Footer from './assets/components/pages/Footer/Footer';
 
 import './App.css';
 import './assets/components/pages/lightMode.css';
