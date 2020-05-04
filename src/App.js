@@ -67,7 +67,6 @@ function App() {
 					<nav>
 						{/* toggle goes here */}
 						<div className="toggle-container">
-							{/* <button onClick={() => setDarkMode((prevMode) => !prevMode)}>toggle mode</button> */}
 							<span style={{ color: darkMode ? 'yellow' : 'grey' }}>
 								{/* <img src={require('../src/assets/images/sun.png')} alt="" height="40" width="40" /> */}
 								<img src={require('../src/assets/images/dark.png')} alt="" height="30" width="30" />
@@ -104,7 +103,7 @@ function App() {
 					</Switch>
 
 					<ScrollTopArrow />
-					
+
 					<Footer />
 				</div>
 			</div>
