@@ -12,7 +12,6 @@ import ScrollTopArrow from './assets/components/ScrollTop/ScrollTopArrow';
 import Footer from './assets/components/pages/Footer/Footer';
 
 import './App.css';
-import './assets/components/pages/lightMode.css';
 
 function App() {
 	const [ darkMode, setDarkMode ] = React.useState(getInitialMode());
