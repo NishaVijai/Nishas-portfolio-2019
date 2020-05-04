@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../pages/Header/Header';
+import Header from '../Header/Header';
 
 export default class Home extends Component {
 	render() {

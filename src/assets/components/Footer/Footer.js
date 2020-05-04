@@ -11,12 +11,12 @@ export default class Footer extends Component {
 						<ul>
 							<li>
 								<a href="https://github.com/NishaVijai" target="_blank" rel="noopener  noreferrer">
-									<img src={require('../../../images/github-logo.png')} alt="" />
+									<img src={require('../../images/github-logo.png')} alt="" />
 								</a>
 							</li>
 							<li>
 								<a href="https://twitter.com/RoshanVijai" target="_blank" rel="noopener  noreferrer">
-									<img src={require('../../../images/twitter.png')} alt="" />
+									<img src={require('../../images/twitter.png')} alt="" />
 								</a>
 							</li>
 							<li>
@@ -25,12 +25,12 @@ export default class Footer extends Component {
 									target="_blank"
 									rel="noopener  noreferrer"
 								>
-									<img src={require('../../../images/linkedIn.png')} alt="" />
+									<img src={require('../../images/linkedIn.png')} alt="" />
 								</a>
 							</li>
 							<li>
 								<a href="https://codepen.io/nishavijai" target="_blank" rel="noopener  noreferrer">
-									<img src={require('../../../images/codepen.png')} alt="" />
+									<img src={require('../../images/codepen.png')} alt="" />
 								</a>
 							</li>
 							<li>
@@ -39,7 +39,7 @@ export default class Footer extends Component {
 									target="_blank"
 									rel="noopener  noreferrer"
 								>
-									<img src={require('../../../images/codewars.png')} alt="" />
+									<img src={require('../../images/codewars.png')} alt="" />
 								</a>
 							</li>
 						</ul>

@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Nav from './assets/components/pages/Nav/Nav';
-import Home from './assets/components/pages/Home';
+import Home from './assets/components/pages/Home/Home';
 import About from './assets/components/pages/About/About';
 import Portfolio from './assets/components/pages/Portfolio/Portfolio';
 import Resume from './assets/components/pages/Resume/Resume';
 import Contact from './assets/components/pages/Contact/Contact';
 import NotFoundPage from './assets/components/pages/PageNotFound/404';
 import ScrollTopArrow from './assets/components/ScrollTop/ScrollTopArrow';
-import Footer from './assets/components/pages/Footer/Footer';
+import Footer from './assets/components/Footer/Footer';
 
 import './App.css';
 
