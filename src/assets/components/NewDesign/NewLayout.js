@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import HeaderNew from "../NewDesign/HeaderNewFolder/HeaderNew";
+import MainNew from "../NewDesign/MainNewFolder/MainNew";
 import FooterNew from "../NewDesign/FooterNewFolder/FooterNew";
 export default class NewLayout extends Component {
   render() {
     return (
       <React.Fragment>
         <HeaderNew />
-        {/* <MainNew /> */}
+        <MainNew />
         <FooterNew />
       </React.Fragment>
     );
