@@ -21,7 +21,7 @@ body {
 	height: 100%;
 	line-height: 1.4;
 }
-
+/* 
 /* Main app container */
 .main-app-container {
 	height: 1000px; 
@@ -141,4 +141,4 @@ input[type="checkbox"].checkbox + label {
 	html {
 		font-size: 55%;
 	}
-}
+} */
