@@ -1,6 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
+:root {
+  --nav-bg-color: #1d2e37;
+  --nav-color: #c0c0c0;
+  --p-30-px: 1.875rem;
+  --p-40-px: 2.5rem;
+  --p-neg-5-px: -0.3125rem;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,11 +27,21 @@ body {
   font-size: 1.2rem;
   height: 100vh;
   line-height: 1.6;
+  overflow-x: hidden;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 /* New Layout design */
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
 .new-layout-container {
   display: grid;
   grid-template-columns: 1fr;

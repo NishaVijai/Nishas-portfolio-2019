@@ -12,6 +12,7 @@ export default class SocialMedia extends Component {
       >
         <img
           alt={mediaIcon.alt}
+          className="social-icon-img"
           loading="lazy"
           src={mediaIcon.socialMediaIcon}
           title={mediaIcon.socialMediaName}
