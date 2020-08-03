@@ -1,6 +1,8 @@
 import React from "react";
 import NewLayout from "./assets/components/NewDesign/NewLayout";
 
+import "./App.css";
+
 export default function App() {
   return (
     <div className="new-layout-container">
