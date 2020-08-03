@@ -7,11 +7,24 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Cutive Mono", monospace,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
   font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  height: 100vh;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* New Layout design */
+.new-layout-container {
+  display: grid;
+  grid-template-columns: 1fr;
 }
