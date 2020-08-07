@@ -8,7 +8,9 @@ export default class NavBar extends Component {
           <li>portfolio</li>
           <li>certificates</li>
           <li>about</li>
-          <li>resume</li>
+          <li>
+            <a href="https://nishas-resume-2020.herokuapp.com/">Resume</a>
+          </li>
         </ul>
       </nav>
     );

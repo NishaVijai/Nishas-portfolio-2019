@@ -16,8 +16,6 @@ export default class SocialMedia extends Component {
           loading="lazy"
           src={mediaIcon.socialMediaIcon}
           title={mediaIcon.socialMediaName}
-          width="40"
-          height="40"
         />
       </a>
     ));
