@@ -2,8 +2,9 @@
   background-color: var(--nav-bg-color);
   color: var(--nav-color);
   display: flex;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
   padding: var(--p-40-px);
   text-transform: capitalize;
 }
