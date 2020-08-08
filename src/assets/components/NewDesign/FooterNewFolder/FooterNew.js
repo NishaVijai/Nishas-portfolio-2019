@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import NavBar from "../NavBarFolder/NavBar";
+// import NavBar from "../NavBarFolder/NavBar";
 import SocialMedia from "./SocialMediaLinks/SocialMedia";
 
-import "./footerNew.css";
 export default class FooterNew extends Component {
   render() {
     return (
