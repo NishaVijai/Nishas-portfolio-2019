@@ -25,6 +25,7 @@ li {
 
 /* Footer Component */
 .footer-container {
+  align-items: center;
   background-color: var(--nav-bg-color);
   color: var(--nav-color);
   display: flex;
