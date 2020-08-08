@@ -3,7 +3,7 @@ import portfolioData from "../PortfolioFolder/PortfolioData";
 
 export default class Portfolio extends Component {
   render() {
-    const test = portfolioData.map((portfolioItems) => (
+    const portfolio = portfolioData.map((portfolioItems) => (
       <a
         href={portfolioItems.projLink}
         key={portfolioItems.id}
@@ -20,9 +20,9 @@ export default class Portfolio extends Component {
       </a>
     ));
     return (
-      <article>
-        <ul className="portfolio-container">
-          <li>{test}</li>
+      <article className="portfolio-container">
+        <ul>
+          <li>{portfolio}</li>
         </ul>
       </article>
     );
