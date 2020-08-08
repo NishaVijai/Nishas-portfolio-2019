@@ -1,3 +1,17 @@
+/* New Layout design */
+ul {
+  list-style: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+.new-layout-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 /* Header Component */
 .header-container {
   display: flex;
