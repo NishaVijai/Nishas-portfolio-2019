@@ -7,7 +7,6 @@ export default class MainNew extends Component {
       <main>
         <About />
         <Portfolio />
-        {/* <Certificates /> */}
       </main>
     );
   }
