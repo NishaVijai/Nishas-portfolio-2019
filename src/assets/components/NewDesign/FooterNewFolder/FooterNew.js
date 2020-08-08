@@ -9,9 +9,9 @@ export default class FooterNew extends Component {
       <footer className="footer-container">
         <p>&copy; 2020 noorunnisha thamizuddin</p>
 
-        <div className="footer-nav-bar-container">
+        {/* <div className="footer-nav-bar-container">
           <NavBar />
-        </div>
+        </div> */}
 
         <SocialMedia />
       </footer>
