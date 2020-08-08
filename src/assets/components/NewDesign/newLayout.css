@@ -13,16 +13,6 @@ li {
   grid-template-rows: var(--p-100-px) auto var(--p-100-px);
 }
 
-/* Header Component */
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* padding: var(--p-40-px); */
-  text-transform: capitalize;
-}
-
 .sr-only:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -31,6 +21,16 @@ li {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/* Header Component */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: var(--p-40-px); */
+  text-transform: capitalize;
 }
 
 /* Footer Component */
