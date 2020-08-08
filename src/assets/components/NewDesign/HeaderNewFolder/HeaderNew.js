@@ -4,7 +4,7 @@ class HeaderNew extends Component {
   render() {
     return (
       <header className="header-container">
-        <h1 className="sr-only">Main Page</h1>
+        <h2 className="sr-only">Header</h2>
         <NavBar />
       </header>
     );

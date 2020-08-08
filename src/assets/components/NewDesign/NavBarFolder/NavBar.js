@@ -4,6 +4,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <nav className="nav-bar-container">
+        <h3 className="sr-only">NavBar Container</h3>
         <ul className="nav-bar-container-list">
           <li>about</li>
           <li>portfolio</li>
