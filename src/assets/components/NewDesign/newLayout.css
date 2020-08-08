@@ -10,6 +10,7 @@ li {
 .new-layout-container {
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: var(--p-100-px) auto var(--p-100-px);
 }
 
 /* Header Component */
@@ -18,7 +19,7 @@ li {
   justify-content: space-between;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: var(--p-40-px);
+  /* padding: var(--p-40-px); */
   text-transform: capitalize;
 }
 
@@ -30,7 +31,7 @@ li {
   justify-content: space-around;
   /* display: grid;
       grid-template-columns: repeat(3, 1fr); */
-  padding: var(--p-40-px);
+  /* padding: var(--p-40-px); */
   text-transform: capitalize;
 }
 
