@@ -30,9 +30,6 @@ li {
   color: var(--nav-color);
   display: flex;
   justify-content: space-around;
-  /* display: grid;
-      grid-template-columns: repeat(3, 1fr); */
-  /* padding: var(--p-40-px); */
   text-transform: capitalize;
 }
 
