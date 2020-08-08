@@ -20,12 +20,17 @@ export default class Portfolio extends Component {
       </a>
     ));
     return (
-      <article className="portfolio-container">
+      <React.Fragment>
         <h3 className="sr-only">Portfolio Container</h3>
         <ul>
           <li>{portfolio}</li>
         </ul>
-      </article>
+        {/* <article className="portfolio-container">
+          <ul>
+            <li>{portfolio}</li>
+          </ul>
+        </article> */}
+      </React.Fragment>
     );
   }
 }
