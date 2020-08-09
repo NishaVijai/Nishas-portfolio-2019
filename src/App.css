@@ -6,8 +6,10 @@
   --main-color: #08160b;
   --nav-bg-color: #1d2e37;
   --nav-color: #c0c0c0;
+  --p-5-px: 0.3125rem;
   --p-30-px: 1.875rem;
   --p-40-px: 2.5rem;
+  --p-50-px: 3.125rem;
   --p-100-px: 6.25rem;
   --p-neg-5-px: -0.3125rem;
 }
