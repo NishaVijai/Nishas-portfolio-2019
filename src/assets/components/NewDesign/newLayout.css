@@ -7,6 +7,11 @@ li {
   cursor: pointer;
 }
 
+a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
 .new-layout-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -30,6 +35,8 @@ li {
   justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-around;
   /* padding: var(--p-40-px); */
   /* padding-left: var(--p-30-px); */
   text-transform: capitalize;
@@ -38,7 +45,11 @@ li {
 /* NavBar Component */
 .nav-bar-container-list {
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+}
+
+.nav-bar-container-list li {
+  padding-right: var(--p-30-px);
 }
 
 .nav-bar-container-list li:hover {
