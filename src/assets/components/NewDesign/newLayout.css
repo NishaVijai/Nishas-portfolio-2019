@@ -25,12 +25,24 @@ li {
 
 /* Header Component */
 .header-container {
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
+  /* display: flex;
+  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* padding: var(--p-40-px); */
+  /* padding-left: var(--p-30-px); */
   text-transform: capitalize;
+}
+
+/* NavBar Component */
+.nav-bar-container-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar-container-list li:hover {
+  font-weight: bold;
 }
 
 /* Footer Component */
@@ -41,15 +53,6 @@ li {
   display: flex;
   justify-content: space-around;
   text-transform: capitalize;
-}
-
-.nav-bar-container-list {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.nav-bar-container-list li:hover {
-  font-weight: bold;
 }
 
 .social-media-links li {
