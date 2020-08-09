@@ -56,10 +56,14 @@ li {
 }
 
 .social-media-links li {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  margin-top: var(--p-neg-5-px);
+  /* align-items: center; */
+  /* display: flex;
+  justify-content: center; */
+  /* margin-top: var(--p-neg-5-px); */
+}
+
+.social-media-links li img {
+  vertical-align: middle;
 }
 
 .social-media-links li a:hover {
