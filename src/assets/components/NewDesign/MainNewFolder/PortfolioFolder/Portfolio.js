@@ -25,11 +25,6 @@ export default class Portfolio extends Component {
         <ul>
           <li>{portfolio}</li>
         </ul>
-        {/* <article className="portfolio-container">
-          <ul>
-            <li>{portfolio}</li>
-          </ul>
-        </article> */}
       </React.Fragment>
     );
   }
