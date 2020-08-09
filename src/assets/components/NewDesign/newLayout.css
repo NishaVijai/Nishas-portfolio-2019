@@ -37,6 +37,8 @@ a {
   display: flex;
   justify-content: space-around;
   text-transform: capitalize; */
+  position: sticky;
+  top: 0;
 }
 
 /* NavBar Component */
