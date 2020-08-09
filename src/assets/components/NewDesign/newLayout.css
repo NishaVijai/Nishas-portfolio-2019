@@ -73,56 +73,25 @@ a {
   text-transform: capitalize;
 }
 
-/* .social-media-links li {
-  display: flex;
-  justify-content: space-around;
-} */
-
-.social-media-links li {
-  /* align-items: center; */
-  /* display: flex;
-  justify-content: center; */
-  /* margin-top: var(--p-neg-5-px); */
-  /* padding-right: var(--p-30-px); */
-}
-
 .social-media-links li img {
-  /* padding-right: var(--p-30-px); */
-  /* margin-right: 10px; */
   vertical-align: middle;
 }
 
 .social-media-links li a:hover,
 .social-media-links li a:active {
   filter: saturate(6);
-  /* transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1); */
   -webkit-filter: saturate(6);
 }
 
 .social-media-links li a:focus {
   filter: saturate(6);
-  /* transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2); */
   -webkit-filter: saturate(6);
-}
-
-.social-media-links li a:nth-child(2) {
-  /* padding: 0 var(--p-30-px); */
 }
 
 .social-icon-img {
   filter: invert(80%);
-  /* height: var(--p-40-px); */
   height: var(--p-50-px);
   padding: 0 var(--p-5-px);
-  /* width: var(--p-40-px); */
   width: var(--p-50-px);
   -webkit-filter: invert(80%);
 }
