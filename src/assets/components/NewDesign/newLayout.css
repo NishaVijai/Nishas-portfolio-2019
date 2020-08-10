@@ -66,6 +66,14 @@ main {
   text-align: center;
 }
 
+.portfolio-lists li:hover > a {
+  opacity: 0.5;
+}
+
+.portfolio-lists li:hover > a:hover {
+  opacity: 1;
+}
+
 .portfolio-lists li a {
   margin: var(--p-5-px);
 }
