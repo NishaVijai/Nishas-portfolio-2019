@@ -94,6 +94,11 @@ a {
   position: relative;
 }
 
+img:hover,
+img:focus {
+  pointer-events: none;
+}
+
 a span {
   display: none;
 }
