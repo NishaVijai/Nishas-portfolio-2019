@@ -34,6 +34,11 @@ a {
   top: 0;
 }
 
+#header img {
+  height: var(--p-120-px);
+  width: var(--p-120-px);
+}
+
 /* NavBar Component */
 .nav-bar-container-list {
   display: flex;

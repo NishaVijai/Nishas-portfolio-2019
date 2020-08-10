@@ -11,7 +11,9 @@
   --p-30-px: 1.875rem;
   --p-40-px: 2.5rem;
   --p-50-px: 3.125rem;
+  --p-80-px: 5rem;
   --p-100-px: 6.25rem;
+  --p-120-px: 7.5rem;
   --p-neg-5-px: -0.3125rem;
 }
 
@@ -37,4 +39,25 @@ body {
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 540px) {
+  * {
+    font-size: 1rem;
+  }
+
+  #header img {
+    height: var(--p-80-px);
+    width: var(--p-80-px);
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .footer-container {
+    display: inline-block;
+    text-align: center;
+  }
 }
