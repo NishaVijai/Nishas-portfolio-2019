@@ -100,10 +100,10 @@ a span {
 a:hover span,
 a:focus span {
   /* background-color: #f1f17e; */
-  background-color: #82f17e;
+  background-color: var(--a-span-bg-color);
   /* background-color: #c9f17e; */
   /* border: var(--p-1-px) solid #996633; */
-  border: var(--p-1-px) solid #945210;
+  border: var(--p-1-px) solid var(--a-span-color);
   border-radius: var(--p-10-px);
   color: rgb(71, 7, 7);
   display: block;
