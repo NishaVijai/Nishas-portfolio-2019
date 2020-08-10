@@ -90,13 +90,13 @@ a span {
 a:hover span,
 a:focus span {
   background-color: #ffff66;
-  border: 1px solid #996633;
+  border: var(--p-1-px) solid #996633;
   color: #000;
   display: block;
-  left: 3.5em;
-  padding: 0.2em 0.6em;
+  left: var(--p-42-px);
+  padding: var(--p-2-px) var(--p-7-px);
   position: absolute;
-  top: -1.5em;
+  top: var(--p-neg-18-px);
 }
 
 .portfolio-lists li a img {
