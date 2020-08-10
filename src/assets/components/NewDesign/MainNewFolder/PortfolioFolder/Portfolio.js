@@ -10,11 +10,11 @@ export default class Portfolio extends Component {
         rel="noopener  noreferrer"
         target="_blank"
       >
+        <span>{portfolioItems.projName}</span>
         <img
           alt={portfolioItems.projAlt}
           loading="lazy"
           src={portfolioItems.projImg}
-          title={portfolioItems.projName}
         />
       </a>
     ));

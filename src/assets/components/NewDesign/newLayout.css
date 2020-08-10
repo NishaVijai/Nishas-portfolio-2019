@@ -79,6 +79,26 @@ main {
   margin: var(--p-5-px);
 }
 
+a {
+  position: relative;
+}
+
+a span {
+  display: none;
+}
+
+a:hover span,
+a:focus span {
+  background-color: #ffff66;
+  border: 1px solid #996633;
+  color: #000;
+  display: block;
+  left: 3.5em;
+  padding: 0.2em 0.6em;
+  position: absolute;
+  top: -1.5em;
+}
+
 .portfolio-lists li a img {
   margin: var(--p-5-px);
 }
