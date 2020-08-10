@@ -1,4 +1,8 @@
 /* New Layout design */
+main {
+  background-color: var(--main-bg-color);
+}
+
 ul {
   list-style: none;
 }

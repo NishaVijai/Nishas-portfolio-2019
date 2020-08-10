@@ -25,8 +25,6 @@ html {
 }
 
 body {
-  background-color: var(--main-bg-color);
-  /* color: var(--main-color); */
   font-family: -apple-system, BlinkMacSystemFont, "Cutive Mono", monospace,
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
