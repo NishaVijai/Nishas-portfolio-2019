@@ -13,7 +13,6 @@ const portfolioData = [
   {
     id: 1,
     projName: "Vaersgo built with React, HTML, CSS",
-    projLanguages: "HTML,CSS and React",
     projLink: "https://vaersgo.netlify.app/",
     projImg: VaersgoSiteImg,
     projAlt: "Cloned Vaersgo Website Image",
@@ -25,7 +24,6 @@ const portfolioData = [
   {
     id: 2,
     projName: "Kickstarter built with React, HTML, CSS",
-    projLanguages: "HTML,CSS and React",
     projLink: "https://cloned-kickstarter.herokuapp.com/",
     projImg: KickstarterSiteImg,
     projAlt: "Cloned Kickstarter Website Image",
@@ -37,7 +35,6 @@ const portfolioData = [
   {
     id: 3,
     projName: "Shoe Web App built with React, HTML, CSS",
-    projLanguages: "HTML,CSS and React",
     projLink: "https://chingu-shoe-project.herokuapp.com/",
     projImg: ShoeAppImg,
     projAlt: "Shoe Web App Image",
@@ -49,7 +46,6 @@ const portfolioData = [
   {
     id: 4,
     projName: "IniTab Extension built with JavaScript, HTML, CSS",
-    projLanguages: "HTML,CSS and JavaScript",
     projLink: "https://nishavijai.github.io/Chingu-09-prework-project/",
     projImg: IniTabImg,
     projAlt: "IniTab Extension Image",
@@ -57,7 +53,6 @@ const portfolioData = [
   {
     id: 5,
     projName: "Chingu built with JavaScript, HTML, CSS",
-    projLanguages: "HTML,CSS and JavaScript",
     projLink: "https://chingu-voyages.github.io/v8-toucans-team-09/",
     projImg: ChinguSiteImg,
     projAlt: "Cloned Chingu Website Image",
@@ -65,7 +60,6 @@ const portfolioData = [
   {
     id: 6,
     projName: "TickyBot built with Vanilla JavaScript, HTML, CSS",
-    projLanguages: "HTML,CSS and Vanilla JavaScript",
     projLink: "https://nishavijai.github.io/pre-work-solo-project/",
     projImg: TickyBotImg,
     projAlt: "Cloned TickyBot Website Image",
