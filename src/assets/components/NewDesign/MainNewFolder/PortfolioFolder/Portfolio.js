@@ -14,7 +14,7 @@ export default class Portfolio extends Component {
           alt={portfolioItems.projAlt}
           loading="lazy"
           src={portfolioItems.projImg}
-          title={portfolioItems.projAlt}
+          title={portfolioItems.projName}
         />
       </a>
     ));
