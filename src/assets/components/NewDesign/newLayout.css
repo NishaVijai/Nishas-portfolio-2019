@@ -1,8 +1,4 @@
 /* New Layout design */
-main {
-  background-color: var(--main-bg-color);
-}
-
 ul {
   list-style: none;
 }
@@ -56,6 +52,21 @@ a {
 .nav-bar-container-list li:focus {
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* Main Component */
+main {
+  background-color: var(--main-bg-color);
+  padding: var(--p-10-px);
+  text-align: center;
+}
+
+.portfolio-lists li a {
+  margin: var(--p-5-px);
+}
+
+.portfolio-lists li a img {
+  margin: var(--p-5-px);
 }
 
 /* Footer Component */
