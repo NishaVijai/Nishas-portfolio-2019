@@ -12,7 +12,7 @@ import Voyage09Img from "../../../../images/Chingu_Voyage_9_Completion_Certifica
 const portfolioData = [
   {
     id: 1,
-    projName: "Vaersgo",
+    projName: "Vaersgo built with React, HTML, CSS",
     projLanguages: "HTML,CSS and React",
     projLink: "https://vaersgo.netlify.app/",
     projImg: VaersgoSiteImg,
@@ -24,7 +24,7 @@ const portfolioData = [
   },
   {
     id: 2,
-    projName: "Kickstarter",
+    projName: "Kickstarter built with React, HTML, CSS",
     projLanguages: "HTML,CSS and React",
     projLink: "https://cloned-kickstarter.herokuapp.com/",
     projImg: KickstarterSiteImg,
@@ -36,7 +36,7 @@ const portfolioData = [
   },
   {
     id: 3,
-    projName: "Shoe Web App",
+    projName: "Shoe Web App built with React, HTML, CSS",
     projLanguages: "HTML,CSS and React",
     projLink: "https://chingu-shoe-project.herokuapp.com/",
     projImg: ShoeAppImg,
@@ -48,7 +48,7 @@ const portfolioData = [
   },
   {
     id: 4,
-    projName: "IniTab Extension",
+    projName: "IniTab Extension built with JavaScript, HTML, CSS",
     projLanguages: "HTML,CSS and JavaScript",
     projLink: "https://nishavijai.github.io/Chingu-09-prework-project/",
     projImg: IniTabImg,
@@ -56,7 +56,7 @@ const portfolioData = [
   },
   {
     id: 5,
-    projName: "Chingu",
+    projName: "Chingu built with JavaScript, HTML, CSS",
     projLanguages: "HTML,CSS and JavaScript",
     projLink: "https://chingu-voyages.github.io/v8-toucans-team-09/",
     projImg: ChinguSiteImg,
@@ -64,7 +64,7 @@ const portfolioData = [
   },
   {
     id: 6,
-    projName: "TickyBot",
+    projName: "TickyBot built with Vanilla JavaScript, HTML, CSS",
     projLanguages: "HTML,CSS and Vanilla JavaScript",
     projLink: "https://nishavijai.github.io/pre-work-solo-project/",
     projImg: TickyBotImg,
