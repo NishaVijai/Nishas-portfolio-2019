@@ -83,6 +83,7 @@ main {
 
 .portfolio-lists li:hover > a:hover {
   opacity: 1;
+  opacity: 0.9;
 }
 
 .portfolio-lists li a {
