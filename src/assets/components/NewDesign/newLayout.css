@@ -67,10 +67,17 @@ main {
   text-align: center;
 }
 
+.portfolio-lists {
+  margin: auto;
+  max-width: 70vw;
+}
+
 .portfolio-lists li {
   display: grid;
-  /* grid-gap: 20px; */
   grid-template-columns: repeat(2, 1fr);
+  /* grid-auto-flow: column dense; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .portfolio-lists li:hover > a {
@@ -105,7 +112,7 @@ a:focus span {
   display: block;
   font-size: 1rem;
   font-weight: bold;
-  left: 25%;
+  left: 15%;
   padding: var(--p-2-px) var(--p-7-px);
   position: absolute;
   top: 30%;

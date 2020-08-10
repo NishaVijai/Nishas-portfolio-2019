@@ -62,6 +62,24 @@ body {
     justify-content: space-evenly;
   }
 
+  .portfolio-lists {
+    /* margin: auto; */
+    max-width: 100vw;
+  }
+
+  .portfolio-lists li {
+    /* display: grid;
+    grid-auto-flow: row; */
+  }
+
+  .portfolio-lists li {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-auto-flow: column dense; */
+    /* display: flex;
+    flex-direction: column; */
+  }
+
   .portfolio-lists li a {
     margin: 0;
   }
