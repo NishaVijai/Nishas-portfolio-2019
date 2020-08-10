@@ -57,17 +57,6 @@ body {
     justify-content: space-evenly;
   }
 
-  .nav-bar-container-list li:hover,
-  .nav-bar-container-list li:active {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
-  .nav-bar-container-list li:focus {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-
   .portfolio-lists li a {
     margin: 0;
   }
