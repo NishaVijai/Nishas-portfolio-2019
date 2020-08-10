@@ -12,7 +12,7 @@ export default class NavBar extends Component {
         </li>
         <li>
           <a
-            href="https://nishas-resume-2020.herokuapp.com/"
+            href="https://resume.nishavijai.vercel.app/"
             rel="noopener  noreferrer"
             target="_blank"
           >
