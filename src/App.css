@@ -74,7 +74,9 @@ body {
   }
 
   .portfolio-lists li {
-    display: inline-block;
+    /* display: inline-block; */
+    display: grid;
+    grid-template-columns: auto;
   }
 
   .portfolio-lists li a {
@@ -84,6 +86,6 @@ body {
   .portfolio-lists li a:hover span,
   .portfolio-lists li a:focus span {
     font-size: 0.8rem;
-    left: 10%;
+    left: 12%;
   }
 }
