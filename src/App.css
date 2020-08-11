@@ -17,6 +17,7 @@
   --p-5-px: 0.3125rem;
   --p-7-px: 0.4375rem;
   --p-10-px: 0.625rem;
+  --p-20-px: 1.25rem;
   --p-30-px: 1.875rem;
   /* --p-40-px: 2.5rem; */
   /* --p-42-px: 2.625rem; */
@@ -59,9 +60,11 @@ body {
   }
 
   #header img {
-    height: var(--p-80-px);
+    /* height: var(--p-80-px); */
+    height: var(--p-100-px);
     vertical-align: middle;
-    width: var(--p-80-px);
+    /* width: var(--p-80-px); */
+    width: var(--p-100-px);
   }
 
   .header-container {
@@ -72,7 +75,7 @@ body {
   nav {
     display: flex;
     justify-content: center;
-    padding-bottom: var(--p-5-px);
+    padding-bottom: var(--p-20-px);
   }
 
   .portfolio-lists li {
@@ -100,7 +103,7 @@ body {
 
   .footer-container {
     display: inline-block;
-    padding-top: var(--p-10-px);
+    /* padding-top: var(--p-10-px); */
     text-align: center;
   }
 }

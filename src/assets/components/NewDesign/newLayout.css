@@ -157,6 +157,10 @@ a:focus span {
   /* width: 100vw; */
 }
 
+.footer-container {
+  padding: var(--p-30-px) 0;
+}
+
 .social-media-links li img {
   vertical-align: middle;
 }
@@ -175,7 +179,9 @@ a:focus span {
 .social-icon-img {
   filter: invert(80%);
   height: var(--p-50-px);
-  padding: 0 var(--p-5-px);
+  /* padding: 0 var(--p-5-px); */
+  margin: auto;
+  margin: 10px;
   width: var(--p-50-px);
   -webkit-filter: invert(80%);
 }
