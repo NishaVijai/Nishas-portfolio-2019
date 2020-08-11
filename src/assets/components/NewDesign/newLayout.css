@@ -65,12 +65,13 @@ img {
 
 /* Main Component */
 main {
-  padding: var(--p-10-px);
+  /* padding: var(--p-10-px); */
+  /* padding: var(--p-5-px); */
   text-align: center;
 }
 
 .portfolio-lists li {
-  align-content: center;
+  /* align-content: center; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
@@ -84,7 +85,7 @@ main {
 }
 
 .portfolio-lists li a {
-  margin: var(--p-5-px);
+  /* margin: var(--p-5-px); */
 }
 
 a {
