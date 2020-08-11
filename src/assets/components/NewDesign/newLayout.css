@@ -81,21 +81,21 @@ main {
   opacity: 0.9;
 }
 
-a {
+.portfolio-lists li a {
   position: relative;
 }
 
-img:hover,
-img:focus {
+.portfolio-lists li a img:hover,
+.portfolio-lists li a img:focus {
   pointer-events: none;
 }
 
-a span {
+.portfolio-lists li a span {
   display: none;
 }
 
-a:hover span,
-a:focus span {
+.portfolio-lists li a:hover span,
+.portfolio-lists li a:focus span {
   /* background-color: #f1f17e; */
   background-color: var(--a-span-bg-color);
   /* background-color: #c9f17e; */
