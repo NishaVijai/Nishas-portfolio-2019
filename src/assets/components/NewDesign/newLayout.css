@@ -80,10 +80,10 @@ main {
 .portfolio-lists li {
   align-content: center;
   display: grid;
-  /* grid-template-columns: repeat(2, 1fr); */
-  grid-template-columns: repeat(auto);
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(auto); */
   border: 2px solid red;
-  max-width: 75vw;
+  /* max-width: 75vw; */
   /* max-width: 98vw; */
 }
 
@@ -100,7 +100,7 @@ main {
   margin: var(--p-5-px);
   border: 2px solid green;
   /* max-width: 500px; */
-  max-width: 75vw;
+  /* max-width: 75vw; */
 }
 
 a {
@@ -142,7 +142,7 @@ a:focus span {
   /* margin: var(--p-5-px); */
   border: 2px solid blue;
   /* vertical-align: middle; */
-  max-width: 75vw;
+  /* max-width: 75vw; */
 }
 
 /* Footer Component */
