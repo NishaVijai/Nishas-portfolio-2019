@@ -56,7 +56,6 @@ body {
 @media only screen and (max-width: 540px) {
   * {
     font-size: 1rem;
-    /* width: 100vw; */
   }
 
   #header img {
@@ -66,44 +65,28 @@ body {
   }
 
   .header-container {
-    /* display: flex;
-    justify-content: space-evenly; */
     display: inline-block;
-    /* padding-top: var(--p-10-px); */
     text-align: center;
   }
 
   nav {
-    /* text-align: center; */
     display: flex;
     justify-content: center;
     padding-bottom: var(--p-5-px);
-  }
-  .nav-bar-container-list {
-    /* text-align: center; */
-  }
-
-  .portfolio-lists {
-    /* max-width: 100vw; */
-    /* text-align: center; */
   }
 
   .portfolio-lists li {
     display: grid;
     grid-template-columns: 1fr;
-    /* display: flex;
-    flex-direction: column; */
   }
 
   .portfolio-lists li a {
-    /* margin: 0; */
     margin: auto;
     padding-left: var(--p-10-px);
   }
 
   .portfolio-lists li a img {
     max-width: 350px;
-    /* display: inline-block; */
   }
 
   .portfolio-lists li a:hover span,
