@@ -82,18 +82,19 @@ body {
 
   .portfolio-lists li a {
     margin: auto;
-    padding-left: var(--p-10-px);
+    /* padding-left: var(--p-10-px); */
   }
 
   .portfolio-lists li a img {
-    max-width: 350px;
+    /* max-width: 350px;
+    max-width: 330px; */
   }
 
   .portfolio-lists li a:hover span,
   .portfolio-lists li a:focus span {
     font-size: 0.8rem;
     left: 10%;
-    max-width: 250px;
+    /* max-width: 250px; */
   }
 
   .footer-container {

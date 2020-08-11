@@ -13,7 +13,7 @@ a {
 }
 
 img {
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
 .new-layout-container {
@@ -80,9 +80,11 @@ main {
 .portfolio-lists li {
   align-content: center;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto);
   border: 2px solid red;
   max-width: 75vw;
+  /* max-width: 98vw; */
 }
 
 .portfolio-lists li:hover > a {
