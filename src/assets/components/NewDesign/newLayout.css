@@ -19,7 +19,6 @@ img {
 .new-layout-container {
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: var(--p-100-px) auto var(--p-100-px); */
 }
 
 .sr-only:not(:focus):not(:active) {
@@ -66,25 +65,15 @@ img {
 
 /* Main Component */
 main {
-  /* background-color: var(--main-bg-color); */
   padding: var(--p-10-px);
   text-align: center;
-  /* margin: auto; */
-}
-
-.portfolio-lists {
-  /* margin: auto; */
-  /* max-width: 70vw; */
 }
 
 .portfolio-lists li {
   align-content: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-columns: repeat(auto); */
   border: 2px solid red;
-  /* max-width: 75vw; */
-  /* max-width: 98vw; */
 }
 
 .portfolio-lists li:hover > a {
@@ -99,8 +88,6 @@ main {
 .portfolio-lists li a {
   margin: var(--p-5-px);
   border: 2px solid green;
-  /* max-width: 500px; */
-  /* max-width: 75vw; */
 }
 
 a {
@@ -139,10 +126,7 @@ a:focus span {
 }
 
 .portfolio-lists li a img {
-  /* margin: var(--p-5-px); */
   border: 2px solid blue;
-  /* vertical-align: middle; */
-  /* max-width: 75vw; */
 }
 
 /* Footer Component */
@@ -154,7 +138,6 @@ a:focus span {
   display: flex;
   justify-content: space-around;
   text-transform: capitalize;
-  /* width: 100vw; */
 }
 
 .footer-container {
@@ -179,7 +162,6 @@ a:focus span {
 .social-icon-img {
   filter: invert(80%);
   height: var(--p-50-px);
-  /* padding: 0 var(--p-5-px); */
   margin: auto;
   margin: 10px;
   width: var(--p-50-px);
