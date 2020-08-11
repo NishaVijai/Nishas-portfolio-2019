@@ -76,8 +76,9 @@ body {
   }
 
   .portfolio-lists li {
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+    display: inline-block;
   }
 
   .portfolio-lists li a {
