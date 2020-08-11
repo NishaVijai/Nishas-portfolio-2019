@@ -68,8 +68,13 @@ main {
   text-align: center;
 }
 
+.portfolio-lists {
+  display: inline-block;
+}
+
 .portfolio-lists li {
   display: grid;
+  grid-gap: var(--p-10-px);
   grid-template-columns: repeat(2, 1fr);
 }
 
