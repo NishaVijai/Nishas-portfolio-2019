@@ -65,6 +65,7 @@ img {
 
 /* Main Component */
 main {
+  background-color: var(--main-bg-color);
   text-align: center;
 }
 
