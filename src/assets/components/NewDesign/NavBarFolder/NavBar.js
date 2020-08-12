@@ -11,6 +11,9 @@ export default class NavBar extends Component {
           <a href="#portfolio">portfolio</a>
         </li>
         <li>
+          <a href="#certificate">certificates</a>
+        </li>
+        <li>
           <a
             href="https://resume.nishavijai.vercel.app/"
             rel="noopener  noreferrer"
