@@ -21,6 +21,7 @@ export default class SocialMedia extends Component {
     ));
     return (
       <React.Fragment>
+        <h3 className="sr-only">SocialMedia Container</h3>
         <ul className="social-media-links">
           <li>{socialMediaIcon}</li>
         </ul>

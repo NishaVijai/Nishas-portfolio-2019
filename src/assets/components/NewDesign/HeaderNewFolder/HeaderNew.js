@@ -6,7 +6,7 @@ class HeaderNew extends Component {
   render() {
     return (
       <header id="header" className="header-container">
-        <h2 className="sr-only">Header</h2>
+        {/* <h2 className="sr-only">Header</h2> */}
         <a href="#header">
           <img
             src={Logo}
@@ -16,7 +16,7 @@ class HeaderNew extends Component {
           />
         </a>
         <nav>
-          <h3 className="sr-only">NavBar Container</h3>
+          {/* <h3 className="sr-only">NavBar Container</h3> */}
           <NavBar />
         </nav>
       </header>
