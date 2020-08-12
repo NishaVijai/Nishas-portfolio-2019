@@ -25,6 +25,10 @@
   --p-80-px: 5rem;
   --p-100-px: 6.25rem;
   --p-120-px: 7.5rem;
+  --p-250-px: 15.625rem;
+  --p-300-px: 18.75rem;
+  --p-350-px: 21.875rem;
+  --p-500-px: 31.25rem;
 }
 
 * {
@@ -75,19 +79,34 @@ body {
     padding-bottom: var(--p-20-px);
   }
 
-  .portfolio-lists li {
+  .portfolio-lists li,
+  .certificate-lists li {
     display: grid;
     grid-template-columns: auto;
   }
 
   .portfolio-lists li a:hover span,
   .portfolio-lists li a:active span,
-  .portfolio-lists li a:focus span {
+  .portfolio-lists li a:focus span,
+  .certificate-lists li a:hover span,
+  .certificate-lists li a:active span,
+  .certificate-lists li a:focus span {
     font-size: 0.8rem;
     left: 12%;
   }
 
-  .portfolio-lists li a img {
+  .portfolio-lists li a img,
+  .certificate-lists li a img {
     border-bottom: var(--p-4-px) solid var(--img-b-bottom-color);
+  }
+
+  .certificate-lists img {
+    height: var(--p-350-px);
+    width: var(--p-350-px);
+  }
+
+  .certificate-lists li a:hover span,
+  .certificate-lists li a:focus span {
+    max-width: var(--p-250-px);
   }
 }

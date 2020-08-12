@@ -69,39 +69,54 @@ main {
   text-align: center;
 }
 
-.portfolio-lists {
+.portfolio-lists,
+.certificate-lists {
   display: inline-block;
 }
 
-.portfolio-lists li {
+.certificate-lists img {
+  height: var(--p-500-px);
+  width: var(--p-500-px);
+}
+
+.portfolio-lists li,
+.certificate-lists li {
   display: grid;
   grid-gap: var(--p-10-px);
   grid-template-columns: repeat(2, 1fr);
 }
 
-.portfolio-lists li:hover > a {
+.portfolio-lists li:hover > a,
+.certificate-lists li:hover > a {
   opacity: 0.4;
 }
 
-.portfolio-lists li:hover > a:hover {
+.portfolio-lists li:hover > a:hover,
+.certificate-lists li:hover > a:hover {
   opacity: 0.9;
 }
 
-.portfolio-lists li a {
+.portfolio-lists li a,
+.certificate-lists li a {
   position: relative;
 }
 
 .portfolio-lists li a img:hover,
-.portfolio-lists li a img:focus {
+.portfolio-lists li a img:focus,
+.certificate-lists li a img:hover,
+.certificate-lists li a img:focus {
   pointer-events: none;
 }
 
-.portfolio-lists li a span {
+.portfolio-lists li a span,
+.certificate-lists li a span {
   display: none;
 }
 
 .portfolio-lists li a:hover span,
-.portfolio-lists li a:focus span {
+.portfolio-lists li a:focus span,
+.certificate-lists li a:hover span,
+.certificate-lists li a:focus span {
   /* background-color: #f1f17e; */
   background-color: var(--a-span-bg-color);
   /* background-color: #c9f17e; */
@@ -120,6 +135,11 @@ main {
   -moz-border-radius: var(--p-10-px);
   -ms-border-radius: var(--p-10-px);
   -o-border-radius: var(--p-10-px);
+}
+
+.certificate-lists li a:hover span,
+.certificate-lists li a:focus span {
+  max-width: var(--p-300-px);
 }
 
 /* Footer Component */

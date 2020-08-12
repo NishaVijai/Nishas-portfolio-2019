@@ -5,22 +5,19 @@ import Voyage09Img from "../../../../images/Chingu_Voyage_9_Completion_Certifica
 const certificateData = [
   {
     id: 1,
-    certificateName: "Chingu-Voyage-12",
-    certificateLanguages: "HTML,CSS and React",
+    certificateName: "Chingu-Voyage-12 completed using HTML,CSS and React",
     certificateImg: Voyage12Img,
     certificateAlt: "Chingu Voyage 12 Certificate Image",
   },
   {
     id: 2,
-    certificateName: "Chingu-Voyage-11",
-    certificateLanguages: "HTML,CSS and React",
+    certificateName: "Chingu-Voyage-11 completed using HTML,CSS and React",
     certificateImg: Voyage11Img,
     certificateAlt: "Chingu Voyage 11 Certificate Image",
   },
   {
     id: 3,
-    certificateName: "Chingu-Voyage-09",
-    certificateLanguages: "HTML,CSS and React",
+    certificateName: "Chingu-Voyage-09 completed using HTML,CSS and React",
     certificateImg: Voyage09Img,
     certificateAlt: "Chingu Voyage 09 Certificate Image",
   },
