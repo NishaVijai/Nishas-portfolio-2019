@@ -1,6 +1,7 @@
 import TwitterIcon from "../../../../images/twitter.svg";
 import CodePenIcon from "../../../../images/codePen.svg";
 import GitHubIcon from "../../../../images/github.svg";
+import CodeWarsIcon from "../../../../images/codewars.jpg";
 
 const socialMedia = [
   {
@@ -19,6 +20,13 @@ const socialMedia = [
   },
   {
     id: 3,
+    socialMediaName: "CodeWars",
+    socialMediaIcon: CodeWarsIcon,
+    url: "https://www.codewars.com/users/NishaVijai",
+    alt: "CodeWars Icon",
+  },
+  {
+    id: 4,
     socialMediaName: "Twitter",
     socialMediaIcon: TwitterIcon,
     url: "https://twitter.com/RoshanVijai",
