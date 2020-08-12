@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import certificateData from "";
+import certificateData from "../CertificatesFolder/CertificatesData";
 
 export default class Certificates extends Component {
   render() {
