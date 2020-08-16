@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import NavBar from "../NavBarFolder/NavBar";
 
 import Logo from "../../../images/My-logo.png";
+import LogoNew from "../../../images/logo-new.png";
 class HeaderNew extends Component {
   render() {
     return (
@@ -9,7 +10,7 @@ class HeaderNew extends Component {
         <h2 className="sr-only">Header</h2>
         <a href="#header">
           <img
-            src={Logo}
+            src={LogoNew}
             alt="Site Logo"
             loading="lazy"
             title="Portfolio logo"
