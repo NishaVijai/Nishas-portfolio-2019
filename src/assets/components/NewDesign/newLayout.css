@@ -70,32 +70,36 @@ main {
 }
 
 #about {
-  /* display: flex;
-  flex-direction: column; */
   margin: var(--p-10-px);
-  /* padding: var(--p-10-px); */
-}
-
-#about h3 {
-  font-size: 1.6rem;
-  padding-top: var(--p-10-px);
-}
-
-.about-section {
-  padding: var(--p-10-px);
 }
 
 #about * {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  margin: auto; */
   display: inline-block;
-  /* background-color: red; */
-  background-color: silver;
+  background-color: rgb(219, 203, 203);
+  /* background-color: rgb(209, 221, 139); */
   display: grid;
   grid-template-columns: 1fr;
   max-width: 72%;
   margin: auto;
+}
+
+#about h3 {
+  font-size: 1.8rem;
+  padding-top: var(--p-10-px);
+}
+
+#about p:nth-child(2) {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+#about p:nth-child(3) {
+  padding-top: var(--p-5-px);
+  text-align: left;
+}
+
+.about-section {
+  padding: var(--p-10-px);
 }
 
 .portfolio-lists,
