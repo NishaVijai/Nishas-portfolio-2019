@@ -9,12 +9,13 @@ export default class About extends Component {
           <h4 className="sr-only">About Container</h4>
 
           <p>
-            A self-motivated, creative, and ambitious web developer from Denmark
+            A self-motivated, creative, and ambitious Front-End Web Developer from
+            Denmark
           </p>
           <p>
-            I have done my Masters degree in Computer Applications from India.
-            For the past several months I have been building responsive websites
-            using React, Semantic HTML, CSS, and JavaScript.
+            I have done my Masters degree in Computer Applications. For the past
+            several months I have been building responsive websites using React,
+            Semantic HTML, CSS, and JavaScript.
           </p>
         </section>
       </article>
