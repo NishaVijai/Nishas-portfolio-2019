@@ -80,6 +80,21 @@ body {
     padding-left: var(--p-10-px);
   }
 
+  #about {
+    margin: 0;
+    text-align: left;
+  }
+
+  #about * {
+    /* background-color: red; */
+    /* display: grid;
+    grid-template-columns: 1fr; */
+    max-width: 98%;
+    padding: var(--p-10-px);
+    /* margin: auto; */
+    /* margin: 0; */
+  }
+
   .portfolio-lists li,
   .certificate-lists li {
     display: grid;

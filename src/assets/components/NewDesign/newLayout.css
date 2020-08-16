@@ -69,6 +69,35 @@ main {
   text-align: center;
 }
 
+#about {
+  /* display: flex;
+  flex-direction: column; */
+  margin: var(--p-10-px);
+  /* padding: var(--p-10-px); */
+}
+
+#about h3 {
+  font-size: 1.6rem;
+  padding-top: var(--p-10-px);
+}
+
+.about-section {
+  padding: var(--p-10-px);
+}
+
+#about * {
+  /* display: grid;
+  grid-template-columns: 1fr;
+  margin: auto; */
+  display: inline-block;
+  /* background-color: red; */
+  background-color: silver;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 72%;
+  margin: auto;
+}
+
 .portfolio-lists,
 .certificate-lists {
   display: inline-block;

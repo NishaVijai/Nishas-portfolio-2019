@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
     ));
     return (
       <article id="portfolio">
-        <h2 className="sr-only">Portfolio Container</h2>
+        <h3 className="sr-only">Portfolio Container</h3>
         <ul className="portfolio-lists">
           <li>{portfolio}</li>
         </ul>
