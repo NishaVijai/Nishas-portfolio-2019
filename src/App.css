@@ -82,7 +82,7 @@ body {
 
   #about {
     margin: 0;
-    text-align: left;
+    /* text-align: left; */
   }
 
   #about * {
