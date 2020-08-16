@@ -90,9 +90,17 @@ body {
     /* display: grid;
     grid-template-columns: 1fr; */
     max-width: 98%;
-    padding: var(--p-10-px);
+    /* padding: var(--p-10-px); */
     /* margin: auto; */
     /* margin: 0; */
+  }
+
+  #about h3 {
+    font-size: 1.6rem;
+  }
+
+  #about p:nth-child(2) {
+    font-size: 1.3rem;
   }
 
   .portfolio-lists li,
