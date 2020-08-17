@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "../NavBarFolder/NavBar";
 
-import Logo from "../../../images/My-logo.png";
 import LogoNew from "../../../images/logo-new.png";
 class HeaderNew extends Component {
   render() {
@@ -16,10 +15,11 @@ class HeaderNew extends Component {
             title="Portfolio logo"
           />
         </a>
-        <nav>
+        <NavBar />
+        {/* <nav>
           <h3 className="sr-only">NavBar Container</h3>
           <NavBar />
-        </nav>
+        </nav> */}
       </header>
     );
   }
