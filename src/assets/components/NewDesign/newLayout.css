@@ -39,8 +39,8 @@ img {
 }
 
 #header img {
-  height: var(--p-120-px);
-  width: var(--p-120-px);
+  height: var(--p-100-px);
+  width: var(--p-100-px);
 }
 
 /* NavBar Component */

@@ -60,9 +60,9 @@ body {
   }
 
   #header img {
-    height: var(--p-100-px);
+    height: var(--p-80-px);
     vertical-align: middle;
-    width: var(--p-100-px);
+    width: var(--p-80-px);
   }
 
   .header-container,
