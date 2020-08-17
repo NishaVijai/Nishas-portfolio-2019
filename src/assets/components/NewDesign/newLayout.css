@@ -48,19 +48,41 @@ img {
   display: flex;
 }
 
+.nav-bar-container-list Link {
+  /* padding-right: var(--p-30-px); */
+}
+
+.link-item {
+  padding: var(--p-10-px);
+}
+
 .nav-bar-container-list li {
-  padding-right: var(--p-30-px);
+  padding: 10px 10px 10px 0px;
 }
 
-.nav-bar-container-list li:hover,
-.nav-bar-container-list li:active {
+.nav-bar-container-list li a {
+  padding: var(--p-10-px);
+}
+
+.nav-bar-container-list Link:hover,
+.nav-bar-container-list Link:active {
+  /* font-weight: bold;
+  text-decoration: underline; */
+}
+
+.nav-bar-container-list li a:hover,
+.nav-bar-container-list li a:active,
+.nav-bar-container-list li a:focus,
+.link-item:hover,
+.link-item:active,
+.link-item:focus {
   font-weight: bold;
   text-decoration: underline;
 }
 
-.nav-bar-container-list li:focus {
-  font-weight: bold;
-  text-decoration: underline;
+.nav-bar-container-list Link:focus {
+  /* font-weight: bold;
+  text-decoration: underline; */
 }
 
 /* Main Component */
