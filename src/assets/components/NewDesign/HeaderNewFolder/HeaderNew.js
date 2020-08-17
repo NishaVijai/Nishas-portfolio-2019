@@ -7,14 +7,20 @@ class HeaderNew extends Component {
     return (
       <header id="header" className="header-container">
         <h2 className="sr-only">Header</h2>
-        <a href="#header">
+        {/* <a href="#header">
           <img
             src={LogoNew}
             alt="Site Logo"
             loading="lazy"
             title="Portfolio logo"
           />
-        </a>
+        </a> */}
+        <img
+          src={LogoNew}
+          alt="Site Logo"
+          loading="lazy"
+          title="Portfolio logo"
+        />
         <NavBar />
       </header>
     );
