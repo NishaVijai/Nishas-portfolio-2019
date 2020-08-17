@@ -18,6 +18,7 @@ export default class NavBar extends Component {
       <section>
         <h3 className="sr-only">NavBar Container</h3>
         <nav>
+          <h4 className="sr-only">NavBar Items</h4>
           <ul className="nav-bar-container-list">
             <Link
               aria-label="About section"
