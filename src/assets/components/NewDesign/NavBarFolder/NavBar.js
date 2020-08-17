@@ -29,7 +29,7 @@ export default class NavBar extends Component {
               to="about"
               spy={true}
               smooth={true}
-              offset={-140}
+              offset={-120}
               duration={1000}
             >
               About
@@ -45,7 +45,7 @@ export default class NavBar extends Component {
               to="portfolio"
               spy={true}
               smooth={true}
-              offset={-140}
+              offset={-120}
               duration={1000}
             >
               Portfolio
@@ -61,7 +61,7 @@ export default class NavBar extends Component {
               to="certificate"
               spy={true}
               smooth={true}
-              offset={-130}
+              offset={-120}
               duration={1000}
             >
               Certificates
