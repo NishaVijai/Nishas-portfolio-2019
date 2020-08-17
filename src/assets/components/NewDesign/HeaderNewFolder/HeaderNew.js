@@ -16,10 +16,6 @@ class HeaderNew extends Component {
           />
         </a>
         <NavBar />
-        {/* <nav>
-          <h3 className="sr-only">NavBar Container</h3>
-          <NavBar />
-        </nav> */}
       </header>
     );
   }
