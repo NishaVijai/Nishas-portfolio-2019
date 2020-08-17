@@ -40,6 +40,7 @@ img {
 
 #header img {
   height: var(--p-100-px);
+  padding: var(--p-5-px) 0;
   width: var(--p-100-px);
 }
 
