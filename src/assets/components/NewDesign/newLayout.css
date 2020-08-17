@@ -112,11 +112,12 @@ main {
 .portfolio-lists,
 .certificate-lists {
   display: inline-block;
+  padding: var(--p-10-px);
 }
 
 .certificate-lists img {
-  height: var(--p-500-px);
-  width: var(--p-500-px);
+  height: var(--p-480-px);
+  width: var(--p-480-px);
 }
 
 .portfolio-lists li,
