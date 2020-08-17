@@ -48,10 +48,6 @@ img {
   display: flex;
 }
 
-.nav-bar-container-list Link {
-  /* padding-right: var(--p-30-px); */
-}
-
 .link-item {
   padding: var(--p-10-px);
 }
@@ -64,12 +60,6 @@ img {
   padding: var(--p-10-px);
 }
 
-.nav-bar-container-list Link:hover,
-.nav-bar-container-list Link:active {
-  /* font-weight: bold;
-  text-decoration: underline; */
-}
-
 .nav-bar-container-list li a:hover,
 .nav-bar-container-list li a:active,
 .nav-bar-container-list li a:focus,
@@ -78,11 +68,6 @@ img {
 .link-item:focus {
   font-weight: bold;
   text-decoration: underline;
-}
-
-.nav-bar-container-list Link:focus {
-  /* font-weight: bold;
-  text-decoration: underline; */
 }
 
 /* Main Component */
