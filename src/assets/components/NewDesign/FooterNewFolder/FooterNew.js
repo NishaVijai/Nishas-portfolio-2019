@@ -7,7 +7,7 @@ export default class FooterNew extends Component {
     return (
       <footer className="footer-container">
         <h2 className="sr-only">Footer</h2>
-        <p>&copy; 2020 noorunnisha thamizuddin</p>
+        <p>&copy; 2020 - <script>document.write(new Date().getFullYear())</script></p>
         <SocialMedia />
       </footer>
     );

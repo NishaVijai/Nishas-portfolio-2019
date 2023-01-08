@@ -76,7 +76,7 @@ export default class NavBar extends Component {
 
             <li>
               <a
-                href="https://resume.nishavijai.vercel.app/"
+                href="https://nisha-vijai.netlify.app/"
                 rel="noopener  noreferrer"
                 target="_blank"
               >
