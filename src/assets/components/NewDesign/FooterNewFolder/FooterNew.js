@@ -4,10 +4,13 @@ import SocialMedia from "./SocialMediaLinks/SocialMedia";
 
 export default class FooterNew extends Component {
   render() {
+    const getCurrentYearFn = () => {
+      document.write(new Date().getFullYear())
+    };
     return (
       <footer className="footer-container">
         <h2 className="sr-only">Footer</h2>
-        <p>&copy; 2020 - <script>document.write(new Date().getFullYear())</script></p>
+        <p>&copy; 2020 - {getCurrentYearFn}</p>
         <SocialMedia />
       </footer>
     );
