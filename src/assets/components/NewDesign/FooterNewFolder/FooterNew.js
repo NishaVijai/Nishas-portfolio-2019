@@ -5,6 +5,7 @@ import SocialMedia from "./SocialMediaLinks/SocialMedia";
 export default class FooterNew extends Component {
   render() {
     const getCurrentYearFn = () => {
+      console.log("test");
       document.write(new Date().getFullYear())
     };
     return (
