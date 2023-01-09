@@ -16,7 +16,7 @@ const portfolioData = [
   {
     id: 2,
     projName: "Kickstarter built with React, HTML, CSS",
-    projLink: "https://cloned-kickstarter.herokuapp.com/",
+    projLink: "https://clonedkickstarter.netlify.app/",
     projImg: KickstarterSiteImg,
     projAlt: "Cloned Kickstarter Website Image",
   },
